@@ -1,0 +1,26 @@
+{
+    "db": {
+        "host": "localhost",
+        "user": "postgres",
+        "password": "",
+        "database": ""
+    },
+    "extent": {
+        "top": 12520000,
+        "left": -20030000,
+        "bottom": 2504000,
+        "right": -7514000
+    },
+    "states": {
+        "table": "",
+        "id_col": ""
+    },
+    "counties": {
+        "table": "",
+        "id_col": ""
+    },
+    "school_districts": {
+        "table": "",
+        "id_col": ""
+    }
+}
