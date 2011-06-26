@@ -10,9 +10,9 @@ merc = globalmaptiles.GlobalMercator()
 zoom = 4
 
 def rgbify(num):
-    r = num & 0xff
+    b = num & 0xff
     g = (num >> 8) & 0xff
-    b = (num >> 16) & 0xff
+    r = (num >> 16) & 0xff
     return r, g, b
 
 def get_style(data_col, config, geography):

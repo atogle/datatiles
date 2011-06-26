@@ -12,6 +12,13 @@ class TileMadnessTests (unittest.TestCase):
         
         bounds = create_tiles.get_tile_bounds(config, 4)
         self.assertEqual(bounds, (0, 12, 5, 8))
+
+
+    def test_tile_bounds(self):
+        self.assertEqual(create_tiles.rgbify(1), (0, 0, 1))
+        self.assertEqual(create_tiles.rgbify(256), (0, 1, 0))
+        self.assertEqual(create_tiles.rgbify(65536), (1, 0, 0))
+        
         
         
 if __name__ == "__main__":
